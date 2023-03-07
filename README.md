@@ -59,8 +59,8 @@ BenchmarkArtRecoilmeInsertAll/unsorted inuse: 600.070312 MB
 BenchmarkArtRecoilmeInsertAll/sorted inuse: 600.289062 MB
 BenchmarkArtWenyxuTreeInsertAll/unsorted inuse: 643.773438 MB
 BenchmarkArtWenyxuTreeInsertAll/sorted inuse: 644.132812 MB
-!!!BenchmarkArtCurrentPlarInsertAll/unsorted inuse: 765.296875 MB
-!!!BenchmarkArtCurrentPlarInsertAll/sorted inuse: 775.109375 MB
+BenchmarkArtCurrentPlarInsertAll/unsorted inuse: 765.296875 MB
+BenchmarkArtCurrentPlarInsertAll/sorted inuse: 775.109375 MB
 BenchmarkArtArriqaaqInsertAll/unsorted inuse: 1056.031250 MB
 BenchmarkArtArriqaaqInsertAll/sorted inuse: 1057.226562 MB
 BenchmarkArtKellydunnInsertAll/unsorted inuse: 1943.390625 MB
