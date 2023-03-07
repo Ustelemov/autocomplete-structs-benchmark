@@ -106,7 +106,7 @@ BenchmarkArtGammazeroInsertAll/sorted-4            1     4526.48 ms/op    641987
 BenchmarkArtBobotuInsertAll/unsorted-4             1    12058.99 ms/op    586779384 B/op     8589669 allocs/op
 BenchmarkArtBobotuInsertAll/sorted-4               1     4729.72 ms/op    586779352 B/op     8589669 allocs/op
 BenchmarkArtCurrentPlarInsertAll/unsorted-4        1    18724.40 ms/op    864498160 B/op    22397903 allocs/op
-BenchmarkArtCurrentPlarInsertAll/sorted-4          1     6890.02 ms/op    863337456 B/op    22385934 allocs/op**
+BenchmarkArtCurrentPlarInsertAll/sorted-4          1     6890.02 ms/op    863337456 B/op    22385934 allocs/op
 BenchmarkArtArriqaaqInsertAll/unsorted-4           1    31230.86 ms/op   1168427592 B/op    32842822 allocs/op
 BenchmarkArtArriqaaqInsertAll/sorted-4             1     7754.50 ms/op   1168424632 B/op    32842822 allocs/op
 BenchmarkArtWenyxuTreeInsertAll/unsorted-4         1    19219.43 ms/op    678224528 B/op    11874370 allocs/op
@@ -151,8 +151,8 @@ BenchmarkArtGammazeroInsert/unsorted-4      617863   2812.00 ns/op      145 B/op
 BenchmarkArtGammazeroInsert/sorted-4       1397941    778.90 ns/op      123 B/op   3 allocs/op
 BenchmarkArtBobotuInsert/unsorted-4        1000000   1890.00 ns/op      119 B/op   1 allocs/op
 BenchmarkArtBobotuInsert/sorted-4          1362096    895.30 ns/op      112 B/op   1 allocs/op
-BenchmarkArtCurrentPlarInsert/unsorted-4    947798   2946.00 ns/op      171 B/op   4 allocs/op**
-BenchmarkArtCurrentPlarInsert/sorted-4     1000000   1301.00 ns/op      162 B/op   4 allocs/op**
+BenchmarkArtCurrentPlarInsert/unsorted-4    947798   2946.00 ns/op      171 B/op   4 allocs/op
+BenchmarkArtCurrentPlarInsert/sorted-4     1000000   1301.00 ns/op      162 B/op   4 allocs/op
 BenchmarkArtWenyxuInsert/unsorted-4         960289   2890.00 ns/op      139 B/op   2 allocs/op
 BenchmarkArtWenyxuInsert/sorted-4          1000000   1473.00 ns/op      130 B/op   2 allocs/op
 BenchmarkArtSuperfellInsert/unsorted-4     1000000   2247.00 ns/op      117 B/op   1 allocs/op
