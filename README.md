@@ -84,7 +84,7 @@ BenchmarkTrieDerekparkerInsertAll/unsorted inuse: 5905.242188 MB
 BenchmarkTrieDerekparkerInsertAll/sorted inuse: 5902.843750 MB
 
 ## InsertAll elements benchmark
-
+```
 benchmark                                       iter         time/iter       bytes alloc                allocs
 ---------                                       ----         ---------       -----------                ------
 BenchmarkMapInsertAll/unsorted-4                   1     2274.07 ms/op    496102264 B/op      156828 allocs/op
@@ -133,9 +133,10 @@ BenchmarkTrieAcomaguInsertAll/unsorted-4           1    30124.79 ms/op   8011876
 BenchmarkTrieAcomaguInsertAll/sorted-4             1    14086.33 ms/op   8011876112 B/op    36609604 allocs/op
 BenchmarkTrieDerekparkerInsertAll/unsorted-4       1    48751.45 ms/op   6209347088 B/op    73787622 allocs/op
 BenchmarkTrieDerekparkerInsertAll/sorted-4         1    36356.23 ms/op   6209345344 B/op    73787607 allocs/op
+```
 
 ## Insert one element benchmark
-
+```
 benchmark                                     iter       time/iter   bytes alloc        allocs
 ---------                                     ----       ---------   -----------        ------
 BenchmarkMapInsert/unsorted-4              2272058    466.20 ns/op      109 B/op   0 allocs/op
@@ -162,9 +163,10 @@ BenchmarkTrieBeevikInsert/unsorted-4        702032   4258.00 ns/op      191 B/op
 BenchmarkTrieBeevikInsert/sorted-4         1000000   1396.00 ns/op      127 B/op   2 allocs/op
 BenchmarkTrieRyuanerinInsert/unsorted-4     704898   4689.00 ns/op      177 B/op   4 allocs/op
 BenchmarkTrieRyuanerinInsert/sorted-4      1000000   1549.00 ns/op      143 B/op   3 allocs/op
+```
 
 ## Search one existing element benchmark
-
+```
 benchmark                                  iter       time/iter   bytes alloc        allocs
 ---------                                  ----       ---------   -----------        ------
 BenchmarkMapExistsSearch-4              7512259    160.80 ns/op        0 B/op   0 allocs/op
@@ -184,3 +186,4 @@ BenchmarkRadixGbrlsnchsExistsSearch-4    207688   5763.00 ns/op        0 B/op   
 
 BenchmarkTrieBeevikExistsSearch-4        251110   5108.00 ns/op        0 B/op   0 allocs/op
 BenchmarkTrieRyuanerinExistsSearch-4     142078   8510.00 ns/op        0 B/op   0 allocs/op
+```
