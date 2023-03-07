@@ -1,0 +1,128 @@
+goos: linux
+goarch: amd64
+pkg: test
+cpu: Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz
+--- BENCH: BenchmarkMapInsertAll/unsorted-4
+    bench_test.go:246: BenchmarkMapInsertAll/unsorted inuse: 410.523438 MB
+--- BENCH: BenchmarkMapInsertAll/sorted-4
+    bench_test.go:269: BenchmarkMapInsertAll/sorted inuse: 347.593750 MB
+--- BENCH: BenchmarkCedarInsertAll/unsorted-4
+    bench_test.go:344: BenchmarkCedarInsertAll/unsorted inuse: 1746.015625 MB
+--- BENCH: BenchmarkCedarInsertAll/sorted-4
+    bench_test.go:367: BenchmarkCedarInsertAll/sorted inuse: 1746.015625 MB
+--- BENCH: BenchmarkSlimInsertAll/sorted-4
+    bench_test.go:416: BenchmarkSlimInsertAll/sorted inuse: 635.656250 MB
+--- BENCH: BenchmarkDoubleArrayInsertAll/sorted-4
+    bench_test.go:475: BenchmarkDoubleArrayInsertAll/sorted inuse: 541.507812 MB
+--- BENCH: BenchmarkTernaryTreeInsertAll/unsorted-4
+    bench_test.go:530: BenchmarkTernaryTreeInsertAll/unsorted inuse: 982.843750 MB
+--- BENCH: BenchmarkTernaryTreeInsertAll/sorted-4
+    bench_test.go:553: BenchmarkTernaryTreeInsertAll/sorted inuse: 983.242188 MB
+--- BENCH: BenchmarkArtCurrentPlarInsertAll/unsorted-4
+    bench_test.go:612: BenchmarkArtCurrentPlarInsertAll/unsorted inuse: 765.296875 MB
+--- BENCH: BenchmarkArtCurrentPlarInsertAll/sorted-4
+    bench_test.go:635: BenchmarkArtCurrentPlarInsertAll/sorted inuse: 775.109375 MB
+--- BENCH: BenchmarkArtGammazeroInsertAll/unsorted-4
+    bench_test.go:680: BenchmarkArtGammazeroInsertAll/unsorted inuse: 587.031250 MB
+--- BENCH: BenchmarkArtGammazeroInsertAll/sorted-4
+    bench_test.go:703: BenchmarkArtGammazeroInsertAll/sorted inuse: 588.539062 MB
+--- BENCH: BenchmarkArtRecoilmeInsertAll/unsorted-4
+    bench_test.go:779: BenchmarkArtRecoilmeInsertAll/unsorted inuse: 600.070312 MB
+--- BENCH: BenchmarkArtRecoilmeInsertAll/sorted-4
+    bench_test.go:803: BenchmarkArtRecoilmeInsertAll/sorted inuse: 600.289062 MB
+--- BENCH: BenchmarkArtSuperfellInsertAll/unsorted-4
+    bench_test.go:830: BenchmarkArtSuperfellInsertAll/unsorted inuse: 518.546875 MB
+--- BENCH: BenchmarkArtSuperfellInsertAll/sorted-4
+    bench_test.go:853: BenchmarkArtSuperfellInsertAll/sorted inuse: 512.140625 MB
+--- BENCH: BenchmarkArtArriqaaqInsertAll/unsorted-4
+    bench_test.go:928: BenchmarkArtArriqaaqInsertAll/unsorted inuse: 1056.031250 MB
+--- BENCH: BenchmarkArtArriqaaqInsertAll/sorted-4
+    bench_test.go:951: BenchmarkArtArriqaaqInsertAll/sorted inuse: 1057.226562 MB
+--- BENCH: BenchmarkArtKellydunnInsertAll/unsorted-4
+    bench_test.go:978: BenchmarkArtKellydunnInsertAll/unsorted inuse: 1943.390625 MB
+--- BENCH: BenchmarkArtKellydunnInsertAll/sorted-4
+    bench_test.go:1001: BenchmarkArtKellydunnInsertAll/sorted inuse: 1735.445312 MB
+--- BENCH: BenchmarkArtBobotuInsertAll/unsorted-4
+    bench_test.go:1028: BenchmarkArtBobotuInsertAll/unsorted inuse: 556.140625 MB
+--- BENCH: BenchmarkArtBobotuInsertAll/sorted-4
+    bench_test.go:1051: BenchmarkArtBobotuInsertAll/sorted inuse: 557.093750 MB
+--- BENCH: BenchmarkArtWenyxuTreeInsertAll/unsorted-4
+    bench_test.go:1126: BenchmarkArtWenyxuTreeInsertAll/unsorted inuse: 643.773438 MB
+--- BENCH: BenchmarkArtWenyxuTreeInsertAll/sorted-4
+    bench_test.go:1149: BenchmarkArtWenyxuTreeInsertAll/sorted inuse: 644.132812 MB
+--- BENCH: BenchmarkRadixPatricaTreeInsertAll/unsorted-4
+    bench_test.go:1226: BenchmarkRadixPatricaTreeInsertAll/unsorted inuse: 1449.695312 MB
+--- BENCH: BenchmarkRadixPatricaTreeInsertAll/sorted-4
+    bench_test.go:1249: BenchmarkRadixPatricaTreeInsertAll/sorted inuse: 1336.187500 MB
+--- BENCH: BenchmarkRadixWzshimingInsertAll/unsorted-4
+    bench_test.go:1275: BenchmarkRadixWzshimingInsertAll/unsorted inuse: 6671.093750 MB
+--- BENCH: BenchmarkRadixWzshimingInsertAll/sorted-4
+    bench_test.go:1298: BenchmarkRadixWzshimingInsertAll/sorted inuse: 6671.085938 MB
+--- BENCH: BenchmarkRadixGbrlsnchsInsertAll/unsorted-4
+    bench_test.go:1323: BenchmarkRadixGbrlsnchsInsertAll/unsorted inuse: 718.523438 MB
+--- BENCH: BenchmarkRadixGbrlsnchsInsertAll/sorted-4
+    bench_test.go:1346: BenchmarkRadixGbrlsnchsInsertAll/sorted inuse: 723.929688 MB
+--- BENCH: BenchmarkTrieRyuanerinInsertAll/unsorted-4
+    bench_test.go:1423: BenchmarkTrieRyuanerinInsertAll/unsorted inuse: 700.570312 MB
+--- BENCH: BenchmarkTrieRyuanerinInsertAll/sorted-4
+    bench_test.go:1446: BenchmarkTrieRyuanerinInsertAll/sorted inuse: 566.023438 MB
+--- BENCH: BenchmarkTrieDghubbleInsertAll/unsorted-4
+    bench_test.go:1520: BenchmarkTrieDghubbleInsertAll/unsorted inuse: 3225.976562 MB
+--- BENCH: BenchmarkTrieDghubbleInsertAll/sorted-4
+    bench_test.go:1543: BenchmarkTrieDghubbleInsertAll/sorted inuse: 3228.046875 MB
+--- BENCH: BenchmarkTrieAcomaguInsertAll/unsorted-4
+    bench_test.go:1569: BenchmarkTrieAcomaguInsertAll/unsorted inuse: 2798.296875 MB
+--- BENCH: BenchmarkTrieAcomaguInsertAll/sorted-4
+    bench_test.go:1591: BenchmarkTrieAcomaguInsertAll/sorted inuse: 2798.312500 MB
+--- BENCH: BenchmarkTrieDerekparkerInsertAll/unsorted-4
+    bench_test.go:1618: BenchmarkTrieDerekparkerInsertAll/unsorted inuse: 5905.242188 MB
+--- BENCH: BenchmarkTrieDerekparkerInsertAll/sorted-4
+    bench_test.go:1641: BenchmarkTrieDerekparkerInsertAll/sorted inuse: 5902.843750 MB
+--- BENCH: BenchmarkTrieBeevikInsertAll/unsorted-4
+    bench_test.go:1668: BenchmarkTrieBeevikInsertAll/unsorted inuse: 625.968750 MB
+--- BENCH: BenchmarkTrieBeevikInsertAll/sorted-4
+    bench_test.go:1691: BenchmarkTrieBeevikInsertAll/sorted inuse: 596.273438 MB
+PASS
+benchmark                                       iter         time/iter       bytes alloc                allocs
+---------                                       ----         ---------       -----------                ------
+BenchmarkMapInsertAll/unsorted-4                   1     2274.07 ms/op    496102264 B/op      156828 allocs/op
+BenchmarkMapInsertAll/sorted-4                     1     2534.52 ms/op    496100504 B/op      156821 allocs/op
+BenchmarkCedarInsertAll/unsorted-4                 1    11647.43 ms/op   2441084480 B/op          76 allocs/op
+BenchmarkCedarInsertAll/sorted-4                   1     5766.05 ms/op   2441084480 B/op          76 allocs/op
+BenchmarkSlimInsertAll/sorted-4                    1     1540.55 ms/op    708170016 B/op     5206756 allocs/op
+BenchmarkDoubleArrayInsertAll/sorted-4             1     4006.02 ms/op   1063273488 B/op     9029693 allocs/op
+BenchmarkTernaryTreeInsertAll/unsorted-4           1    13242.66 ms/op   1072563344 B/op    21370165 allocs/op
+BenchmarkTernaryTreeInsertAll/sorted-4             1    18911.16 ms/op   1072563488 B/op    21370166 allocs/op
+BenchmarkArtCurrentPlarInsertAll/unsorted-4        1    18724.40 ms/op    864498160 B/op    22397903 allocs/op
+BenchmarkArtCurrentPlarInsertAll/sorted-4          1     6890.02 ms/op    863337456 B/op    22385934 allocs/op
+BenchmarkArtGammazeroInsertAll/unsorted-4          1    18997.52 ms/op    641987984 B/op    17510852 allocs/op
+BenchmarkArtGammazeroInsertAll/sorted-4            1     4526.48 ms/op    641987984 B/op    17510852 allocs/op
+BenchmarkArtRecoilmeInsertAll/unsorted-4           1    34525.78 ms/op    629627200 B/op     9754190 allocs/op
+BenchmarkArtRecoilmeInsertAll/sorted-4             1    34237.09 ms/op    629627344 B/op     9754191 allocs/op
+BenchmarkArtSuperfellInsertAll/unsorted-4          1    15027.74 ms/op    551044864 B/op     9092768 allocs/op
+BenchmarkArtSuperfellInsertAll/sorted-4            1     9711.21 ms/op    544104944 B/op     9020476 allocs/op
+BenchmarkArtArriqaaqInsertAll/unsorted-4           1    31230.86 ms/op   1168427592 B/op    32842822 allocs/op
+BenchmarkArtArriqaaqInsertAll/sorted-4             1     7754.50 ms/op   1168424632 B/op    32842822 allocs/op
+BenchmarkArtKellydunnInsertAll/unsorted-4          1    34066.20 ms/op   2676054088 B/op   147694921 allocs/op
+BenchmarkArtKellydunnInsertAll/sorted-4            1    14122.88 ms/op   2657841664 B/op   145418374 allocs/op
+BenchmarkArtBobotuInsertAll/unsorted-4             1    12058.99 ms/op    586779384 B/op     8589669 allocs/op
+BenchmarkArtBobotuInsertAll/sorted-4               1     4729.72 ms/op    586779352 B/op     8589669 allocs/op
+BenchmarkArtWenyxuTreeInsertAll/unsorted-4         1    19219.43 ms/op    678224528 B/op    11874370 allocs/op
+BenchmarkArtWenyxuTreeInsertAll/sorted-4           1     8913.02 ms/op    678224528 B/op    11874370 allocs/op
+BenchmarkRadixPatricaTreeInsertAll/unsorted-4      1    26386.79 ms/op   1624819272 B/op    27633560 allocs/op
+BenchmarkRadixPatricaTreeInsertAll/sorted-4        1     6380.76 ms/op   1471543048 B/op    25219033 allocs/op
+BenchmarkRadixWzshimingInsertAll/unsorted-4        1   101502.45 ms/op   6993935456 B/op     9636841 allocs/op
+BenchmarkRadixWzshimingInsertAll/sorted-4          1    43988.20 ms/op   6993935440 B/op     9636841 allocs/op
+BenchmarkRadixGbrlsnchsInsertAll/unsorted-4        1    37982.05 ms/op    765939032 B/op    19883868 allocs/op
+BenchmarkRadixGbrlsnchsInsertAll/sorted-4          1    13945.76 ms/op    772656568 B/op    20351393 allocs/op
+BenchmarkTrieRyuanerinInsertAll/unsorted-4         1    39758.98 ms/op    829361368 B/op    21361783 allocs/op
+BenchmarkTrieRyuanerinInsertAll/sorted-4           1     8831.29 ms/op    747380624 B/op    18675381 allocs/op
+BenchmarkTrieDghubbleInsertAll/unsorted-4          1    24334.85 ms/op   3382533688 B/op    56727983 allocs/op
+BenchmarkTrieDghubbleInsertAll/sorted-4            1    13549.48 ms/op   3382554080 B/op    56728166 allocs/op
+BenchmarkTrieAcomaguInsertAll/unsorted-4           1    30124.79 ms/op   8011876104 B/op    36609603 allocs/op
+BenchmarkTrieAcomaguInsertAll/sorted-4             1    14086.33 ms/op   8011876112 B/op    36609604 allocs/op
+BenchmarkTrieDerekparkerInsertAll/unsorted-4       1    48751.45 ms/op   6209347088 B/op    73787622 allocs/op
+BenchmarkTrieDerekparkerInsertAll/sorted-4         1    36356.23 ms/op   6209345344 B/op    73787607 allocs/op
+BenchmarkTrieBeevikInsertAll/unsorted-4            1    37711.47 ms/op    781958928 B/op    14082547 allocs/op
+BenchmarkTrieBeevikInsertAll/sorted-4              1     9137.16 ms/op    662094368 B/op    12304235 allocs/op
+ok  	test	1017.270s

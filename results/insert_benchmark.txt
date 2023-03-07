@@ -1,0 +1,28 @@
+goos: linux
+goarch: amd64
+pkg: test
+cpu: Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz
+PASS
+benchmark                                     iter       time/iter   bytes alloc        allocs
+---------                                     ----       ---------   -----------        ------
+BenchmarkMapInsert/unsorted-4              2272058    466.20 ns/op      109 B/op   0 allocs/op
+BenchmarkMapInsert/sorted-4                2656876    447.90 ns/op       93 B/op   0 allocs/op
+BenchmarkCedarInsert/unsorted-4             858540   2068.00 ns/op      710 B/op   0 allocs/op
+BenchmarkCedarInsert/sorted-4              1365578    969.00 ns/op      446 B/op   0 allocs/op
+BenchmarkArtCurrentPlarInsert/unsorted-4    947798   2946.00 ns/op      171 B/op   4 allocs/op
+BenchmarkArtCurrentPlarInsert/sorted-4     1000000   1301.00 ns/op      162 B/op   4 allocs/op
+BenchmarkArtGammazeroInsert/unsorted-4      617863   2812.00 ns/op      145 B/op   3 allocs/op
+BenchmarkArtGammazeroInsert/sorted-4       1397941    778.90 ns/op      123 B/op   3 allocs/op
+BenchmarkArtSuperfellInsert/unsorted-4     1000000   2247.00 ns/op      117 B/op   1 allocs/op
+BenchmarkArtSuperfellInsert/sorted-4       1000000   1699.00 ns/op      103 B/op   1 allocs/op
+BenchmarkArtBobotuInsert/unsorted-4        1000000   1890.00 ns/op      119 B/op   1 allocs/op
+BenchmarkArtBobotuInsert/sorted-4          1362096    895.30 ns/op      112 B/op   1 allocs/op
+BenchmarkArtWenyxuInsert/unsorted-4         960289   2890.00 ns/op      139 B/op   2 allocs/op
+BenchmarkArtWenyxuInsert/sorted-4          1000000   1473.00 ns/op      130 B/op   2 allocs/op
+BenchmarkRadixGbrlsnchsInsert/unsorted-4    878992   4101.00 ns/op      161 B/op   4 allocs/op
+BenchmarkRadixGbrlsnchsInsert/sorted-4      952267   2296.00 ns/op      147 B/op   3 allocs/op
+BenchmarkTrieRyuanerinInsert/unsorted-4     704898   4689.00 ns/op      177 B/op   4 allocs/op
+BenchmarkTrieRyuanerinInsert/sorted-4      1000000   1549.00 ns/op      143 B/op   3 allocs/op
+BenchmarkTrieBeevikInsert/unsorted-4        702032   4258.00 ns/op      191 B/op   3 allocs/op
+BenchmarkTrieBeevikInsert/sorted-4         1000000   1396.00 ns/op      127 B/op   2 allocs/op
+ok  	test	252.277s
