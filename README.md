@@ -35,6 +35,7 @@ BenchmarkSortInput-4      1   3493.14 ms/op       24 B/op   1 allocs/op
 
 ### InsertAll elements, heap in use after filling struct
 
+```
 BenchmarkMapInsertAll/unsorted inuse: 410.523438 MB
 BenchmarkMapInsertAll/sorted inuse: 347.593750 MB
 
@@ -58,8 +59,8 @@ BenchmarkArtRecoilmeInsertAll/unsorted inuse: 600.070312 MB
 BenchmarkArtRecoilmeInsertAll/sorted inuse: 600.289062 MB
 BenchmarkArtWenyxuTreeInsertAll/unsorted inuse: 643.773438 MB
 BenchmarkArtWenyxuTreeInsertAll/sorted inuse: 644.132812 MB
-**BenchmarkArtCurrentPlarInsertAll/unsorted inuse: 765.296875 MB**
-**BenchmarkArtCurrentPlarInsertAll/sorted inuse: 775.109375 MB**
+!!!BenchmarkArtCurrentPlarInsertAll/unsorted inuse: 765.296875 MB
+!!!BenchmarkArtCurrentPlarInsertAll/sorted inuse: 775.109375 MB
 BenchmarkArtArriqaaqInsertAll/unsorted inuse: 1056.031250 MB
 BenchmarkArtArriqaaqInsertAll/sorted inuse: 1057.226562 MB
 BenchmarkArtKellydunnInsertAll/unsorted inuse: 1943.390625 MB
@@ -82,6 +83,7 @@ BenchmarkTrieAcomaguInsertAll/unsorted inuse: 2798.296875 MB
 BenchmarkTrieAcomaguInsertAll/sorted inuse: 2798.312500 MB
 BenchmarkTrieDerekparkerInsertAll/unsorted inuse: 5905.242188 MB
 BenchmarkTrieDerekparkerInsertAll/sorted inuse: 5902.843750 MB
+```
 
 ## InsertAll elements benchmark
 ```
@@ -103,8 +105,8 @@ BenchmarkArtGammazeroInsertAll/unsorted-4          1    18997.52 ms/op    641987
 BenchmarkArtGammazeroInsertAll/sorted-4            1     4526.48 ms/op    641987984 B/op    17510852 allocs/op
 BenchmarkArtBobotuInsertAll/unsorted-4             1    12058.99 ms/op    586779384 B/op     8589669 allocs/op
 BenchmarkArtBobotuInsertAll/sorted-4               1     4729.72 ms/op    586779352 B/op     8589669 allocs/op
-**BenchmarkArtCurrentPlarInsertAll/unsorted-4        1    18724.40 ms/op    864498160 B/op    22397903 allocs/op**
-**BenchmarkArtCurrentPlarInsertAll/sorted-4          1     6890.02 ms/op    863337456 B/op    22385934 allocs/op**
+BenchmarkArtCurrentPlarInsertAll/unsorted-4        1    18724.40 ms/op    864498160 B/op    22397903 allocs/op
+BenchmarkArtCurrentPlarInsertAll/sorted-4          1     6890.02 ms/op    863337456 B/op    22385934 allocs/op**
 BenchmarkArtArriqaaqInsertAll/unsorted-4           1    31230.86 ms/op   1168427592 B/op    32842822 allocs/op
 BenchmarkArtArriqaaqInsertAll/sorted-4             1     7754.50 ms/op   1168424632 B/op    32842822 allocs/op
 BenchmarkArtWenyxuTreeInsertAll/unsorted-4         1    19219.43 ms/op    678224528 B/op    11874370 allocs/op
@@ -149,8 +151,8 @@ BenchmarkArtGammazeroInsert/unsorted-4      617863   2812.00 ns/op      145 B/op
 BenchmarkArtGammazeroInsert/sorted-4       1397941    778.90 ns/op      123 B/op   3 allocs/op
 BenchmarkArtBobotuInsert/unsorted-4        1000000   1890.00 ns/op      119 B/op   1 allocs/op
 BenchmarkArtBobotuInsert/sorted-4          1362096    895.30 ns/op      112 B/op   1 allocs/op
-**BenchmarkArtCurrentPlarInsert/unsorted-4    947798   2946.00 ns/op      171 B/op   4 allocs/op**
-**BenchmarkArtCurrentPlarInsert/sorted-4     1000000   1301.00 ns/op      162 B/op   4 allocs/op**
+BenchmarkArtCurrentPlarInsert/unsorted-4    947798   2946.00 ns/op      171 B/op   4 allocs/op**
+BenchmarkArtCurrentPlarInsert/sorted-4     1000000   1301.00 ns/op      162 B/op   4 allocs/op**
 BenchmarkArtWenyxuInsert/unsorted-4         960289   2890.00 ns/op      139 B/op   2 allocs/op
 BenchmarkArtWenyxuInsert/sorted-4          1000000   1473.00 ns/op      130 B/op   2 allocs/op
 BenchmarkArtSuperfellInsert/unsorted-4     1000000   2247.00 ns/op      117 B/op   1 allocs/op
@@ -180,7 +182,7 @@ BenchmarkDoubleArrayExistsSearch-4       873622   1292.00 ns/op        0 B/op   
 BenchmarkArtBobotuExistsSearch-4         618862   1939.00 ns/op        0 B/op   0 allocs/op
 BenchmarkArtSuperfellExistsSearch-4      465730   2471.00 ns/op        0 B/op   0 allocs/op
 BenchmarkArtGammazeroExistsSearch-4      369841   3414.00 ns/op        0 B/op   0 allocs/op
-**BenchmarkArtCurrentPlarExistsSearch-4    343532   3542.00 ns/op        0 B/op   0 allocs/op**
+BenchmarkArtCurrentPlarExistsSearch-4    343532   3542.00 ns/op        0 B/op   0 allocs/op
 BenchmarkArtWenyxuExistsSearch-4         303718   3705.00 ns/op        0 B/op   0 allocs/op
 BenchmarkRadixGbrlsnchsExistsSearch-4    207688   5763.00 ns/op        0 B/op   0 allocs/op
 
